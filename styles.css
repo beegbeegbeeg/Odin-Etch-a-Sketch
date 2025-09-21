@@ -1,0 +1,66 @@
+* {
+    background: #051961;
+    padding: 0;
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+}
+
+.topMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.playContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playzone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    height: 960px;
+    border: 1px solid aliceblue;
+}
+
+.topMenu button {
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid aliceblue;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    padding: 0px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    flex: 1;
+}
+
+.box {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.filled {
+    background: aliceblue;
+}
